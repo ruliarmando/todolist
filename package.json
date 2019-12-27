@@ -1,0 +1,32 @@
+{
+  "name": "todolist",
+  "private": true,
+  "version": "1.0.0",
+  "description": "todolist react app with parcel bundler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./src/index.html --open",
+    "build": "parcel build ./src/index.html --out-dir build"
+  },
+  "keywords": [
+    "todolist",
+    "parcel",
+    "react"
+  ],
+  "author": "krooco@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "postcss-modules": "^1.4.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "shortid": "^2.2.14",
+    "tailwindcss": "^1.0.5"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "cssnano": "^4.1.10"
+  }
+}
